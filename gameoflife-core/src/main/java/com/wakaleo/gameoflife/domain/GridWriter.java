@@ -5,6 +5,7 @@ public class GridWriter {
     private static final String LINE_SEPARATOR = System.getProperty("line.separator");
 
     //Comment
+    // Another comment
     public String convertToString(final Cell[][] gridContents) {
         StringBuffer printedGrid = new StringBuffer();
         for (Cell[] row : gridContents) {
